@@ -3,11 +3,45 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+img{
+  width:50px;
+  height:auto;
+  padding-top:5px;
+}
+
+.slider .slides li img{
+  background-color: rgba(17, 17, 17, 0.5);
+}
+
+h4{
+  text-align: center;
+}
+
+.product-section{
+  background-color: #e0f2f1;
+}
+
+.row1{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.product-section .container .row .col img{
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+@media(max-width:630){
+  .product-section .container .row .col img{
+    margin: auto;
+  }
+}
+
+.col .card{
+  margin: 0 auto;
+  margin-top: 50px;
 }
